@@ -45,7 +45,8 @@ input:checked + .slider:before {
 }
 </style>
 </head>
-<body style="background: url('{{  asset('img/OIP.jpg')}}') no-repeat center center fixed; background-size: cover;">
+<div class="div">
+
     @auth
     @include('components.navbar')
     @endauth
